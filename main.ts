@@ -1,5 +1,4 @@
 basic.showIcon(IconNames.StickFigure)
-basic.showNumber(2)
 basic.forever(function () {
     pins.digitalWritePin(DigitalPin.P1, 0)
     basic.pause(1000)
